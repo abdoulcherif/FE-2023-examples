@@ -20,7 +20,6 @@ ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 input_dir = os.path.join(ROOT_DIR, "inputs")
 
 
-import manifest
 ep4_path="python_scripts"
 #requirements = "./requirements.txt"
 

@@ -25,7 +25,7 @@ ep4_path="python_scripts"
 
 # This is where your simulations and outputs will be stored
 user = os.getlogin()
-user_dir= f'FE_diallo'
+user_dir= f'FE_{user}'
 job_directory = os.path.join('/projects/b1139', user_dir, 'FE-2023-examples/experiments')
 os.makedirs(job_directory, exist_ok=True)
 
